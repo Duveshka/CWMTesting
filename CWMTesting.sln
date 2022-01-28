@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CWMTesting", "CWMTesting\CWMTesting.csproj", "{1A401DB3-E2F5-4100-A1CC-3953A826F03C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{0B31F697-DA96-4DDB-9533-5313E29592CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A401DB3-E2F5-4100-A1CC-3953A826F03C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A401DB3-E2F5-4100-A1CC-3953A826F03C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A401DB3-E2F5-4100-A1CC-3953A826F03C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A401DB3-E2F5-4100-A1CC-3953A826F03C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B31F697-DA96-4DDB-9533-5313E29592CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B31F697-DA96-4DDB-9533-5313E29592CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B31F697-DA96-4DDB-9533-5313E29592CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B31F697-DA96-4DDB-9533-5313E29592CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
