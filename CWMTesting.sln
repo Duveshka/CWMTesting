@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CWMTesting", "CWMTesting\CW
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{0B31F697-DA96-4DDB-9533-5313E29592CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{D0F29DD4-7BAA-428C-9D87-2904BAF56716}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{0B31F697-DA96-4DDB-9533-5313E29592CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B31F697-DA96-4DDB-9533-5313E29592CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B31F697-DA96-4DDB-9533-5313E29592CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0F29DD4-7BAA-428C-9D87-2904BAF56716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0F29DD4-7BAA-428C-9D87-2904BAF56716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0F29DD4-7BAA-428C-9D87-2904BAF56716}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0F29DD4-7BAA-428C-9D87-2904BAF56716}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
