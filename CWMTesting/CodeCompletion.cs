@@ -25,6 +25,11 @@ public class CodeCompletion
 
     public static void AddItem()
     {
+        Console.WriteLine();
+    }
+    public void test()
+    {
+        
     }
 
     public bool testReturn()
@@ -38,6 +43,10 @@ public partial class Partclass
     public void recurs()
     {
         recurs();
+    }
+    public void recurs2()
+    {
+        recurs2();
     }
 }
 
