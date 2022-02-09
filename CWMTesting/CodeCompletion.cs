@@ -52,4 +52,8 @@ public partial class Partclass
 
 public partial class Partclass
 {
+    public void recurs3()
+    {
+        recurs2();
+    }
 }
