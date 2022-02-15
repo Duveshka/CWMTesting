@@ -7,7 +7,7 @@ public class Inline
     
 }
 //TODO Inline field
-class Shape
+class Shape1
 {
     private const string ErrorMessage = "Something has failed";
     public void Draw(string s)
@@ -58,6 +58,7 @@ public class InlineParameter
         var chars = input.ToCharArray();
         Array.Reverse(chars);
         var reversed = new string(chars);
+        Console.WriteLine();
         return reversed;
     }
 }

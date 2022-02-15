@@ -1,14 +1,46 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
+using CWMTesting;
+using NewFolder4;
+
 Console.WriteLine("Hello, World!");
 Console.WriteLine("Hello, World!");
 Console.WriteLine("Hello, World!");
 Console.WriteLine("dada");
 Console.WriteLine("fwaf");
-var a = "fsefes";
-Console.WriteLine("fes"+ a);
 var f = 500;
+var a = new Class5();
+a.Test();
 
-internal class MyClass : IInterface
+var b = new Class12();
+b.Test2();
+
+var c = new Testik();
+c.Test2();
+
+var part1 = new Partial1();
+var part2 = new Partial1();
+part1.Inter1(); //TODO GoToDeclaration on "Inter1" -> go to partial class "Partial1"
+part2.Inter();
+part2.Test();
+
+var class4 = new Class4();
+class4.Test();
+
+var ReferencedMultipleSharedVs1 = new ReferencedMultipleShared_VS1();
+ReferencedMultipleSharedVs1.Method2(1);
+
+ReferencedMultipleSharedVs1.Name2_Renamed = "Jane Doe";
+
+var moveStaticMethod1 = ReferencedMultipleShared_VS1.MoveStaticMethod1(1);
+
+var reSharper1 = new ReferencedMultipleShared_ReSharper1_Renamed();
+var reSharper2 = new ReferencedMultipleShared_ReSharper2();
+var reSharper2_1 = new ReferencedMultipleShared_ReSharper2();
+var reSharper4 = new ReferencedMultipleShared_ReSharper4_Renamed();
+reSharper4.Method2(null); //TODO GoToImplementation -> to the declaration of this method
+reSharper4.Method1();
+
+internal class MyClass : IInterface1
 {
     public string Name { get; set; }
    
@@ -31,7 +63,7 @@ internal class MyClass : IInterface
     }
 }
 
-internal interface IInterface
+public interface IInterface1
 {
     public class ForIfWhile
     {

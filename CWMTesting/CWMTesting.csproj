@@ -7,4 +7,9 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\MultiTarget\MultiTarget.csproj" />
+      <ProjectReference Include="..\Multi\Multi.csproj" />
+    </ItemGroup>
+
 </Project>
