@@ -15,7 +15,7 @@ var b = new Class12();
 b.Test2();
 
 var c = new Testik();
-c.Test2();
+c.Test2(); //GoToType on "c" -> go to Testik
 
 var part1 = new Partial1();
 var part2 = new Partial1();
@@ -36,7 +36,7 @@ var moveStaticMethod1 = ReferencedMultipleShared_VS1.MoveStaticMethod1(1);
 var reSharper1 = new ReferencedMultipleShared_ReSharper1_Renamed();
 var reSharper2 = new ReferencedMultipleShared_ReSharper2();
 var reSharper2_1 = new ReferencedMultipleShared_ReSharper2();
-var reSharper4 = new ReferencedMultipleShared_ReSharper4_Renamed();
+var reSharper4 = new ReferencedMultipleShared_ReSharper4_Renamed(); //TODO ShowUsages on "reSharper4"
 reSharper4.Method2(null); //TODO GoToImplementation -> to the declaration of this method
 reSharper4.Method1();
 

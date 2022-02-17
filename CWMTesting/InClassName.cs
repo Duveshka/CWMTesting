@@ -17,7 +17,7 @@ public class InClassName
 
 public class Location
 {
-    public string locationName;
+    public string locationName; //TODO ShowUsages
 
     public Location(string name) => Name = name;
 

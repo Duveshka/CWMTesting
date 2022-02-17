@@ -64,7 +64,7 @@ internal class Shape
             }
         }
 
-        public int CompareTo(object obj)
+        public int CompareTo(object obj) //TODO GoToType -> open int
         {
             throw new NotImplementedException();
         }

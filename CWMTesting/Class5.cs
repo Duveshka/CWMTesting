@@ -2,12 +2,12 @@
 
 namespace CWMTesting
 {
-    public class Class5 : Class6
+    public class Class5 : Class6 //TODO GoToBase on "Class6" -> open Class6.cs
     {
         public void Test()
         {
             var reSharper1 = new ReferencedMultipleShared_ReSharper1_Renamed();
-            var a = new A5();
+            var a = new A5(); //TODO GoToBase on "A5" -> go to IInterface
             a.Test();
             MethodForTest(a);
         }

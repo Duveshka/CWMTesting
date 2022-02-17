@@ -8,19 +8,19 @@ public class Class3 : Class6 //TODO GoToimplementation -> tooltip with not found
     }
 }
 
-public interface IPub //TODO GoToImplementation -> popup with three classes
+public interface IPub //TODO GoToImplementation -> popup with three classes //TODO ShowUsages
 {
 }
 
-public interface IPub2 : IPub
+public interface IPub2 : IPub //TODO GoToBase on "IPub2" -> go to IPub
 {
 }
 
 public interface IPub3 : IPub
 {
 }
-
-public interface ISab //TODO GoToimplementation -> tooltip with not found
+//TODO GoToBase on "Iasb" -> show tooltip
+public interface ISab //TODO GoToimplementation -> tooltip with not found 
 {
 }
 

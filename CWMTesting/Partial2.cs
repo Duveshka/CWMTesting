@@ -1,12 +1,12 @@
 ﻿namespace CWMTesting;
 
-public partial class Partial1 : Interface1
+public partial class Partial1 : Interface1 //TODO GoToDerived on "Interface1"
 {
     public void Inter()
     {
         Console.WriteLine("Partial");
     }
-    public void Test()
+    public void Test()  //TODO GoToDerived -> tooltip not found
     {
         var a = new Partial1();
         MethodForTest(a);

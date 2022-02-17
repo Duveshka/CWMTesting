@@ -1,6 +1,6 @@
 ﻿namespace CWMTesting;
 
-public class Class6 //TODO GoToImplemenattion -> show popup with two classes
+public class Class6 //TODO GoToImplemenattion -> show popup with two classes //TODO ShowUsages //TODO GoToDerived
 {
     private void Test()
     {
