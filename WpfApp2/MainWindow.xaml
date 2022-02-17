@@ -1,0 +1,27 @@
+﻿<Window x:Class="WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        xmlns:local="clr-namespace:WPF"  
+        Title="MainWindow" Height="450" Width="800">
+        <!--TODO XAML quickFix on 7 line-->
+        <Grid>
+        <!--<Button content="new contact"
+                click="button_click"/>--> <!--TODO XAML uncomment -> check error-->
+        <TextBlock Name="Block" Text="{Binding Phone}" />
+        <!--<TextBlock Text ="{StaticResource BlaBla}"></TextBlock>--> <!--TODO XAML uncomment -> check error-->
+        <Label Name="dataGrid"
+               x:FieldModifier="private" /> <!--TODO XAML GoToDeclaration  on Label-->
+        <TextBlock />
+        <Button Name="Button1" Content="New contact"
+                Click="Button_Click1" /> <!--TODO XAML GoToDeclaration  on Button_Click1-->
+        <Button Name="Button2" Content="New contact"
+                Click="Button_Click2" />
+        <Button Name="Button3" Content="New contact"
+                Click="Button_Click2" />
+        <Button Margin="400,0,100,200">Aloha</Button> <!--TODO XAML hints with left top right-->
+        <Button Background="Blue" /> <!--TODO XAML suggest expand empty tag -->
+    </Grid>
+</Window>

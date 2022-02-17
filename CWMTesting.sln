@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiTarget", "MultiTarget\MultiTarget.csproj", "{52AA747D-3E30-46EF-BAC7-29A2AC77B717}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp2", "WpfApp2\WpfApp2.csproj", "{5C41B208-0BF8-4DCC-945E-E2CE5DB65F4C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{52AA747D-3E30-46EF-BAC7-29A2AC77B717}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52AA747D-3E30-46EF-BAC7-29A2AC77B717}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52AA747D-3E30-46EF-BAC7-29A2AC77B717}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C41B208-0BF8-4DCC-945E-E2CE5DB65F4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C41B208-0BF8-4DCC-945E-E2CE5DB65F4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C41B208-0BF8-4DCC-945E-E2CE5DB65F4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C41B208-0BF8-4DCC-945E-E2CE5DB65F4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

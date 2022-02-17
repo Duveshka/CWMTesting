@@ -1,0 +1,26 @@
+﻿<Window x:Class="WPF.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid>
+        <Grid.Resources>
+            <Style x:Key="ButtonStyle" TargetType="Button">
+                <Setter Property="Background" Value="Blue" /> <!--TODO XAML Color assistance-->
+            </Style>
+        </Grid.Resources>
+        <Button Style="{StaticResource ButtonStyle}" />
+        <Button Style="{StaticResource ButtonStyle}" />
+        <Button Style="{StaticResource ButtonStyle}" /> <!--TODO XAML Rename ButtonStyle-->
+        <Button Style="{StaticResource ButtonStyle}" />
+        <TextBlock Name="Block" /> <!--TODO XAML Safe Delete Block-->
+        <CheckBox x:Name="Chto" Content="что-то длинное написать если, то будет работать?" />
+        <!--TODO XAML quickFix to nested element-->
+
+        <CheckBox x:Name="Chto1">
+            <CheckBox.Content>что-то длинное написать если, то будет работать?</CheckBox.Content>
+        </CheckBox> <!--TODO XAML quickFix to attribute-->
+    </Grid>
+</Window>
